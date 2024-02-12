@@ -12,3 +12,7 @@ document.getElementById('stop').addEventListener('click', () => {
     console.log(starting);
     clearInterval(starting); // Stop the interval when the stop button is clicked
 });
+//SetTimeout(function/function reference,milliseconds) 
+//ClearTimeout(variable which hold the reference of settimeout)
+//SetInterval(function /functiom reference, milisecond) - repeat until we clear it. 
+//ClearInterval(variable which hold the reference of SetInterval)
